@@ -1,0 +1,702 @@
+(coreml_env) %n@%m %1~ %# sh junk
+../onnxruntime-genai/src/runtime_settings.cpp
+../onnxruntime-genai/src/search.cpp
+../onnxruntime-genai/src/cpu/interface.cpp
+../onnxruntime-genai/src/dml/interface.cpp
+../onnxruntime-genai/src/cuda/interface.cpp
+../onnxruntime-genai/src/webgpu/interface.cpp
+../onnxruntime-genai/src/openvino/interface.cpp
+../onnxruntime-genai/src/qnn/interface.cpp
+../onnxruntime-genai/src/cpu/interface.cpp
+../onnxruntime-genai/src/dml/interface.cpp
+../onnxruntime-genai/src/cuda/interface.cpp
+../onnxruntime-genai/src/webgpu/interface.cpp
+../onnxruntime-genai/src/openvino/interface.cpp
+../onnxruntime-genai/src/qnn/interface.cpp
+../onnxruntime-genai/src/cpu/interface.cpp
+../onnxruntime-genai/src/dml/interface.cpp
+../onnxruntime-genai/src/cuda/interface.cpp
+../onnxruntime-genai/src/webgpu/interface.cpp
+../onnxruntime-genai/src/openvino/interface.cpp
+../onnxruntime-genai/src/qnn/interface.cpp
+../onnxruntime-genai/src/cpu/interface.cpp
+../onnxruntime-genai/src/dml/interface.cpp
+../onnxruntime-genai/src/cuda/interface.cpp
+../onnxruntime-genai/src/webgpu/interface.cpp
+../onnxruntime-genai/src/openvino/interface.cpp
+../onnxruntime-genai/src/qnn/interface.cpp
+../onnxruntime-genai/src/generators.cpp
+../onnxruntime-genai/src/constrained_logits_processor.cpp
+../onnxruntime-genai/src/models/decoder_only_pipeline.cpp
+../onnxruntime-genai/src/java/src/main/native/utils.cpp
+../onnxruntime-genai/src/models/utils.cpp
+../onnxruntime-genai/src/models/kv_cache.cpp
+../onnxruntime-genai/src/models/debugging.cpp
+../onnxruntime-genai/src/models/input_ids.cpp
+../onnxruntime-genai/src/models/extra_outputs.cpp
+../onnxruntime-genai/src/models/processor.cpp
+../onnxruntime-genai/src/models/gpt.cpp
+../onnxruntime-genai/src/models/adapters.cpp
+../onnxruntime-genai/src/models/logits.cpp
+../onnxruntime-genai/src/models/env_utils.cpp
+../onnxruntime-genai/src/models/position_inputs.cpp
+../onnxruntime-genai/src/models/windowed_kv_cache.cpp
+../onnxruntime-genai/src/models/threadpool.cpp
+../onnxruntime-genai/src/models/extra_inputs.cpp
+../onnxruntime-genai/src/models/decoder_only.cpp
+../onnxruntime-genai/src/json.cpp
+../onnxruntime-genai/src/config.cpp
+../onnxruntime-genai/src/sequences.cpp
+../onnxruntime-genai/src/beam_search_scorer.cpp
+../onnxruntime-genai/src/logging.cpp
+../onnxruntime-genai/src/tensor.cpp
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/case_encoder.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/tokenizers.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/unicode.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/bpe_kernels.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_sum.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_extraction.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/math.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/lib/ops_registry.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_tokenizer.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_feature_extraction.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/tokenizer_impl.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/speech_extractor.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/chat_template.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/dlib-src/dlib/test/fft.cpp
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/dlib-src/dlib/fft/fft.cpp
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/audio/audio.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/audio/audio_decoder.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/base64.cc
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ocos.cc
+(coreml_env) %n@%m %1~ %# sh junk
+../onnxruntime-genai/src/runtime_settings.cpp \
+../onnxruntime-genai/src/search.cpp \
+../onnxruntime-genai/src/cpu/interface.cpp \
+../onnxruntime-genai/src/dml/interface.cpp \
+../onnxruntime-genai/src/cuda/interface.cpp \
+../onnxruntime-genai/src/webgpu/interface.cpp \
+../onnxruntime-genai/src/openvino/interface.cpp \
+../onnxruntime-genai/src/qnn/interface.cpp \
+../onnxruntime-genai/src/cpu/interface.cpp \
+../onnxruntime-genai/src/dml/interface.cpp \
+../onnxruntime-genai/src/cuda/interface.cpp \
+../onnxruntime-genai/src/webgpu/interface.cpp \
+../onnxruntime-genai/src/openvino/interface.cpp \
+../onnxruntime-genai/src/qnn/interface.cpp \
+../onnxruntime-genai/src/cpu/interface.cpp \
+../onnxruntime-genai/src/dml/interface.cpp \
+../onnxruntime-genai/src/cuda/interface.cpp \
+../onnxruntime-genai/src/webgpu/interface.cpp \
+../onnxruntime-genai/src/openvino/interface.cpp \
+../onnxruntime-genai/src/qnn/interface.cpp \
+../onnxruntime-genai/src/cpu/interface.cpp \
+../onnxruntime-genai/src/dml/interface.cpp \
+../onnxruntime-genai/src/cuda/interface.cpp \
+../onnxruntime-genai/src/webgpu/interface.cpp \
+../onnxruntime-genai/src/openvino/interface.cpp \
+../onnxruntime-genai/src/qnn/interface.cpp \
+../onnxruntime-genai/src/generators.cpp \
+../onnxruntime-genai/src/constrained_logits_processor.cpp \
+../onnxruntime-genai/src/models/decoder_only_pipeline.cpp \
+../onnxruntime-genai/src/java/src/main/native/utils.cpp \
+../onnxruntime-genai/src/models/utils.cpp \
+../onnxruntime-genai/src/models/kv_cache.cpp \
+../onnxruntime-genai/src/models/debugging.cpp \
+../onnxruntime-genai/src/models/input_ids.cpp \
+../onnxruntime-genai/src/models/extra_outputs.cpp \
+../onnxruntime-genai/src/models/processor.cpp \
+../onnxruntime-genai/src/models/gpt.cpp \
+../onnxruntime-genai/src/models/adapters.cpp \
+../onnxruntime-genai/src/models/logits.cpp \
+../onnxruntime-genai/src/models/env_utils.cpp \
+../onnxruntime-genai/src/models/position_inputs.cpp \
+../onnxruntime-genai/src/models/windowed_kv_cache.cpp \
+../onnxruntime-genai/src/models/threadpool.cpp \
+../onnxruntime-genai/src/models/extra_inputs.cpp \
+../onnxruntime-genai/src/models/decoder_only.cpp \
+../onnxruntime-genai/src/json.cpp \
+../onnxruntime-genai/src/config.cpp \
+../onnxruntime-genai/src/sequences.cpp \
+../onnxruntime-genai/src/beam_search_scorer.cpp \
+../onnxruntime-genai/src/logging.cpp \
+../onnxruntime-genai/src/tensor.cpp \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/case_encoder.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/tokenizers.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/unicode.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/bpe_kernels.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_sum.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_extraction.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/math.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/lib/ops_registry.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_tokenizer.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_feature_extraction.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/tokenizer_impl.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/speech_extractor.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/chat_template.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/dlib-src/dlib/test/fft.cpp \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/dlib-src/dlib/fft/fft.cpp \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/audio/audio.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/audio/audio_decoder.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/base64.cc \
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ocos.cc \
+(coreml_env) %n@%m %1~ %# make -f static.mk clean
+rm -f test_phi3_cpp_static other.a
+(coreml_env) %n@%m %1~ %# make -f static.mk      
+clang++ -std=c++20 -g -Wall -I../onnxruntime-genai/src -I../onnxruntime-genai/src/ort -I../onnxruntime-genai/build/macOS/RelWithDebInfo/dependencies/ort/build/native/include -I../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include -I../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api -I../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base -I../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/nlohmann_json-src/single_include -o test_phi3_cpp_static test_phi3.cpp ../onnxruntime-genai/src/models/model_text_only.cpp dummy_implementations.cpp ../onnxruntime-genai/src/ort_genai_c_edited.cpp ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_processor_edited.cc ../onnxruntime-genai/src/runtime_settings.cpp ../onnxruntime-genai/src/search.cpp ../onnxruntime-genai/src/cpu/interface.cpp ../onnxruntime-genai/src/dml/interface.cpp ../onnxruntime-genai/src/cuda/interface.cpp ../onnxruntime-genai/src/webgpu/interface.cpp ../onnxruntime-genai/src/openvino/interface.cpp ../onnxruntime-genai/src/qnn/interface.cpp ../onnxruntime-genai/src/cpu/interface.cpp ../onnxruntime-genai/src/dml/interface.cpp ../onnxruntime-genai/src/cuda/interface.cpp ../onnxruntime-genai/src/webgpu/interface.cpp ../onnxruntime-genai/src/openvino/interface.cpp ../onnxruntime-genai/src/qnn/interface.cpp ../onnxruntime-genai/src/cpu/interface.cpp ../onnxruntime-genai/src/dml/interface.cpp ../onnxruntime-genai/src/cuda/interface.cpp ../onnxruntime-genai/src/webgpu/interface.cpp ../onnxruntime-genai/src/openvino/interface.cpp ../onnxruntime-genai/src/qnn/interface.cpp ../onnxruntime-genai/src/cpu/interface.cpp ../onnxruntime-genai/src/dml/interface.cpp ../onnxruntime-genai/src/cuda/interface.cpp ../onnxruntime-genai/src/webgpu/interface.cpp ../onnxruntime-genai/src/openvino/interface.cpp ../onnxruntime-genai/src/qnn/interface.cpp ../onnxruntime-genai/src/generators.cpp ../onnxruntime-genai/src/constrained_logits_processor.cpp ../onnxruntime-genai/src/models/decoder_only_pipeline.cpp ../onnxruntime-genai/src/java/src/main/native/utils.cpp ../onnxruntime-genai/src/models/utils.cpp ../onnxruntime-genai/src/models/kv_cache.cpp ../onnxruntime-genai/src/models/debugging.cpp ../onnxruntime-genai/src/models/input_ids.cpp ../onnxruntime-genai/src/models/extra_outputs.cpp ../onnxruntime-genai/src/models/processor.cpp ../onnxruntime-genai/src/models/gpt.cpp ../onnxruntime-genai/src/models/adapters.cpp ../onnxruntime-genai/src/models/logits.cpp ../onnxruntime-genai/src/models/env_utils.cpp ../onnxruntime-genai/src/models/position_inputs.cpp ../onnxruntime-genai/src/models/windowed_kv_cache.cpp ../onnxruntime-genai/src/models/threadpool.cpp ../onnxruntime-genai/src/models/extra_inputs.cpp ../onnxruntime-genai/src/models/decoder_only.cpp ../onnxruntime-genai/src/json.cpp ../onnxruntime-genai/src/config.cpp ../onnxruntime-genai/src/sequences.cpp ../onnxruntime-genai/src/beam_search_scorer.cpp ../onnxruntime-genai/src/logging.cpp ../onnxruntime-genai/src/tensor.cpp ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/case_encoder.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/tokenizers.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/unicode.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/bpe_kernels.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_sum.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_extraction.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/math.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/lib/ops_registry.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_tokenizer.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_feature_extraction.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/tokenizer_impl.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/speech_extractor.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/chat_template.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/dlib-src/dlib/test/fft.cpp ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/dlib-src/dlib/fft/fft.cpp ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/audio/audio.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/audio/audio_decoder.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/base64.cc ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ocos.cc  ../onnxruntime-genai/build/macOS/RelWithDebInfo/libonnxruntime.dylib -Wl,-rpath,../onnxruntime-genai/build/macOS/RelWithDebInfo -Wl,-map,filename
+In file included from ../onnxruntime-genai/src/models/model_text_only.cpp:14:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_processor_edited.cc:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/src/dml/interface.cpp:11:10: fatal error: 'wil/wrl.h' file not found
+   11 | #include <wil/wrl.h>
+      |          ^~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/src/cuda/interface.cpp:8:
+../onnxruntime-genai/src/cuda/search_cuda.h:5:10: fatal error: 'cuda_runtime.h' file not found
+    5 | #include <cuda_runtime.h>
+      |          ^~~~~~~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/src/openvino/interface.cpp:8:
+In file included from ../onnxruntime-genai/src/openvino/../models/model.h:7:
+In file included from ../onnxruntime-genai/src/openvino/../models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/openvino/../models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/src/dml/interface.cpp:11:10: fatal error: 'wil/wrl.h' file not found
+   11 | #include <wil/wrl.h>
+      |          ^~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/src/cuda/interface.cpp:8:
+../onnxruntime-genai/src/cuda/search_cuda.h:5:10: fatal error: 'cuda_runtime.h' file not found
+    5 | #include <cuda_runtime.h>
+      |          ^~~~~~~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/src/openvino/interface.cpp:8:
+In file included from ../onnxruntime-genai/src/openvino/../models/model.h:7:
+In file included from ../onnxruntime-genai/src/openvino/../models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/openvino/../models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/src/dml/interface.cpp:11:10: fatal error: 'wil/wrl.h' file not found
+   11 | #include <wil/wrl.h>
+      |          ^~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/src/cuda/interface.cpp:8:
+../onnxruntime-genai/src/cuda/search_cuda.h:5:10: fatal error: 'cuda_runtime.h' file not found
+    5 | #include <cuda_runtime.h>
+      |          ^~~~~~~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/src/openvino/interface.cpp:8:
+In file included from ../onnxruntime-genai/src/openvino/../models/model.h:7:
+In file included from ../onnxruntime-genai/src/openvino/../models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/openvino/../models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/src/dml/interface.cpp:11:10: fatal error: 'wil/wrl.h' file not found
+   11 | #include <wil/wrl.h>
+      |          ^~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/src/cuda/interface.cpp:8:
+../onnxruntime-genai/src/cuda/search_cuda.h:5:10: fatal error: 'cuda_runtime.h' file not found
+    5 | #include <cuda_runtime.h>
+      |          ^~~~~~~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/src/openvino/interface.cpp:8:
+In file included from ../onnxruntime-genai/src/openvino/../models/model.h:7:
+In file included from ../onnxruntime-genai/src/openvino/../models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/openvino/../models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/src/generators.cpp:124:82: warning: all paths through this function will call itself [-Winfinite-recursion]
+  124 |   std::ostream& Log(std::string_view label, std::string_view text = {}) override { return Log(label, text); }
+      |                                                                                  ^
+1 warning generated.
+In file included from ../onnxruntime-genai/src/models/decoder_only_pipeline.cpp:6:
+In file included from ../onnxruntime-genai/src/models/decoder_only_pipeline.h:10:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/src/java/src/main/native/utils.cpp:5:10: fatal error: 'jni.h' file not found
+    5 | #include <jni.h>
+      |          ^~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/src/models/kv_cache.cpp:5:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+In file included from ../onnxruntime-genai/src/models/kv_cache.cpp:6:
+../onnxruntime-genai/src/models/kv_cache.h:138:16: warning: private field 'model_' is not used [-Wunused-private-field]
+  138 |   const Model& model_{state_.model_};
+      |                ^
+3 warnings generated.
+In file included from ../onnxruntime-genai/src/models/debugging.cpp:6:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/src/models/input_ids.cpp:2:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/src/models/extra_outputs.cpp:5:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/src/models/processor.cpp:162:36: warning: explicit instantiation of 'ProcessTensor<Ort::Float16_t>' that occurs after an explicit specialization has no effect [-Winstantiation-after-specialization]
+  162 | template std::unique_ptr<OrtValue> ProcessTensor<Ort::Float16_t>(OrtxTensor* tensor, Ort::Allocator& allocator);
+      |                                    ^
+../onnxruntime-genai/src/models/processor.cpp:88:27: note: previous template specialization is here
+   88 | std::unique_ptr<OrtValue> ProcessTensor<Ort::Float16_t>(OrtxTensor* tensor, Ort::Allocator& allocator) {
+      |                           ^
+../onnxruntime-genai/src/models/processor.cpp:166:36: warning: explicit instantiation of 'ProcessTensor<long long, float>' that occurs after an explicit specialization has no effect [-Winstantiation-after-specialization]
+  166 | template std::unique_ptr<OrtValue> ProcessTensor<int64_t, float>(OrtxTensor* tensor, Ort::Allocator& allocator);
+      |                                    ^
+../onnxruntime-genai/src/models/processor.cpp:108:27: note: previous template specialization is here
+  108 | std::unique_ptr<OrtValue> ProcessTensor<int64_t, float>(OrtxTensor* tensor, Ort::Allocator& allocator) {
+      |                           ^
+../onnxruntime-genai/src/models/processor.cpp:167:36: warning: explicit instantiation of 'ProcessTensor<long long, Ort::Float16_t>' that occurs after an explicit specialization has no effect [-Winstantiation-after-specialization]
+  167 | template std::unique_ptr<OrtValue> ProcessTensor<int64_t, Ort::Float16_t>(OrtxTensor* tensor, Ort::Allocator& allocator);
+      |                                    ^
+../onnxruntime-genai/src/models/processor.cpp:125:27: note: previous template specialization is here
+  125 | std::unique_ptr<OrtValue> ProcessTensor<int64_t, Ort::Float16_t>(OrtxTensor* tensor, Ort::Allocator& allocator) {
+      |                           ^
+../onnxruntime-genai/src/models/processor.cpp:168:36: warning: explicit instantiation of 'ProcessTensor<float, long long>' that occurs after an explicit specialization has no effect [-Winstantiation-after-specialization]
+  168 | template std::unique_ptr<OrtValue> ProcessTensor<float, int64_t>(OrtxTensor* tensor, Ort::Allocator& allocator);
+      |                                    ^
+../onnxruntime-genai/src/models/processor.cpp:145:27: note: previous template specialization is here
+  145 | std::unique_ptr<OrtValue> ProcessTensor<float, int64_t>(OrtxTensor* tensor, Ort::Allocator& allocator) {
+      |                           ^
+In file included from ../onnxruntime-genai/src/models/processor.cpp:5:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+6 warnings generated.
+In file included from ../onnxruntime-genai/src/models/gpt.cpp:2:
+In file included from ../onnxruntime-genai/src/models/gpt.h:2:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/src/models/adapters.cpp:5:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/src/models/logits.cpp:31:10: warning: variable 'element_count' set but not used [-Wunused-but-set-variable]
+   31 |   size_t element_count = shape_[0] * shape_[1] * shape_[2];
+      |          ^
+In file included from ../onnxruntime-genai/src/models/logits.cpp:4:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+3 warnings generated.
+In file included from ../onnxruntime-genai/src/models/position_inputs.cpp:2:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/src/models/extra_inputs.cpp:2:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+In file included from ../onnxruntime-genai/src/models/extra_inputs.cpp:3:
+../onnxruntime-genai/src/models/extra_inputs.h:23:16: warning: private field 'model_' is not used [-Wunused-private-field]
+   23 |   const Model& model_{state_.model_};
+      |                ^
+3 warnings generated.
+In file included from ../onnxruntime-genai/src/models/decoder_only.cpp:2:
+In file included from ../onnxruntime-genai/src/models/decoder_only.h:2:
+In file included from ../onnxruntime-genai/src/models/model.h:7:
+In file included from ../onnxruntime-genai/src/models/phi_image_processor.h:5:
+In file included from ../onnxruntime-genai/src/models/processor.h:5:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/image_processor.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/src/json.cpp:176:22: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  176 |         if (c >= '0' && c <= '9' || c == '-') {
+      |             ~~~~~~~~~^~~~~~~~~~~ ~~
+../onnxruntime-genai/src/json.cpp:176:22: note: place parentheses around the '&&' expression to silence this warning
+  176 |         if (c >= '0' && c <= '9' || c == '-') {
+      |                      ^
+      |             (                   )
+1 warning generated.
+In file included from ../onnxruntime-genai/src/config.cpp:4:
+In file included from ../onnxruntime-genai/src/generators.h:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1827:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:12:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:14:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:67:3: warning: destructor called on non-final 'Generators::PipelineModel_Element' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+   67 |   __loc->~_Tp();
+      |   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_traits.h:339:10: note: in instantiation of function template specialization 'std::__destroy_at<Generators::PipelineModel_Element, 0>' requested here
+  339 |     std::__destroy_at(__p);
+      |          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:985:23: note: in instantiation of function template specialization 'std::allocator_traits<std::allocator<Generators::PipelineModel_Element>>::destroy<Generators::PipelineModel_Element, void, 0>' requested here
+  985 |       __alloc_traits::destroy(__alloc(), std::__to_address(--__soon_to_be_end));
+      |                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:979:5: note: in instantiation of member function 'std::vector<Generators::PipelineModel_Element>::__base_destruct_at_end' requested here
+  979 |     __base_destruct_at_end(this->__begin_);
+      |     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:530:16: note: in instantiation of member function 'std::vector<Generators::PipelineModel_Element>::__clear' requested here
+  530 |         __vec_.__clear();
+      |                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:541:67: note: in instantiation of member function 'std::vector<Generators::PipelineModel_Element>::__destroy_vector::operator()' requested here
+  541 |   _LIBCPP_CONSTEXPR_SINCE_CXX20 _LIBCPP_HIDE_FROM_ABI ~vector() { __destroy_vector (*this)(); }
+      |                                                                   ^
+../onnxruntime-genai/src/config.cpp:306:12: note: in instantiation of member function 'std::vector<Generators::PipelineModel_Element>::~vector' requested here
+  306 |   explicit PipelineModelObject_Element(std::vector<Config::Model::Decoder::PipelineModel>& v) : v_{v} {}
+      |            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:67:11: note: qualify call to silence this warning
+   67 |   __loc->~_Tp();
+      |           ^
+In file included from ../onnxruntime-genai/src/config.cpp:4:
+In file included from ../onnxruntime-genai/src/generators.h:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1842:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/movable_box.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/optional:1294:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:944:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/inout_ptr.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:32:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h:81:5: warning: delete called on non-final 'Generators::NamedStrings_Element' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+   81 |     delete __ptr;
+      |     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h:293:7: note: in instantiation of member function 'std::default_delete<Generators::NamedStrings_Element>::operator()' requested here
+  293 |       __ptr_.second()(__tmp);
+      |       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h:262:71: note: in instantiation of member function 'std::unique_ptr<Generators::NamedStrings_Element>::reset' requested here
+  262 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 ~unique_ptr() { reset(); }
+      |                                                                       ^
+../onnxruntime-genai/src/config.cpp:57:12: note: in instantiation of member function 'std::unique_ptr<Generators::NamedStrings_Element>::~unique_ptr' requested here
+   57 |   explicit ProviderOptionsObject_Element(std::vector<Config::ProviderOptions>& v) : v_{v} {}
+      |            ^
+In file included from ../onnxruntime-genai/src/config.cpp:4:
+In file included from ../onnxruntime-genai/src/generators.h:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1842:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/movable_box.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/optional:1294:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:944:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/inout_ptr.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:32:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h:81:5: warning: delete called on non-final 'Generators::SessionOptions_Element' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+   81 |     delete __ptr;
+      |     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h:293:7: note: in instantiation of member function 'std::default_delete<Generators::SessionOptions_Element>::operator()' requested here
+  293 |       __ptr_.second()(__tmp);
+      |       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h:262:71: note: in instantiation of member function 'std::unique_ptr<Generators::SessionOptions_Element>::reset' requested here
+  262 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 ~unique_ptr() { reset(); }
+      |                                                                       ^
+../onnxruntime-genai/src/config.cpp:263:12: note: in instantiation of member function 'std::unique_ptr<Generators::SessionOptions_Element>::~unique_ptr' requested here
+  263 |   explicit PipelineModel_Element(Config::Model::Decoder::PipelineModel& v) : v_{v} {}
+      |            ^
+3 warnings generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/tokenizers.cc:4:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/ocos.h:13:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/bpe_kernels.cc:9:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/bpe_kernels.h:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/tokenizer_common.h:14:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ustring.h:14:46: warning: moving a temporary object prevents copy elision [-Wpessimizing-move]
+   14 |   explicit ustring(const char* str) { assign(std::move(FromUTF8(str))); }
+      |                                              ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ustring.h:14:46: note: remove std::move call here
+   14 |   explicit ustring(const char* str) { assign(std::move(FromUTF8(str))); }
+      |                                              ^~~~~~~~~~             ~
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ustring.h:16:53: warning: moving a temporary object prevents copy elision [-Wpessimizing-move]
+   16 |   explicit ustring(const std::string& str) { assign(std::move(FromUTF8(str))); }
+      |                                                     ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ustring.h:16:53: note: remove std::move call here
+   16 |   explicit ustring(const std::string& str) { assign(std::move(FromUTF8(str))); }
+      |                                                     ^~~~~~~~~~             ~
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ustring.h:18:58: warning: moving a temporary object prevents copy elision [-Wpessimizing-move]
+   18 |   explicit ustring(const std::string_view& str) { assign(std::move(FromUTF8(str))); }
+      |                                                          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ustring.h:18:58: note: remove std::move call here
+   18 |   explicit ustring(const std::string_view& str) { assign(std::move(FromUTF8(str))); }
+      |                                                          ^~~~~~~~~~             ~
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/bpe_kernels.cc:11:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/tokenizer/bpe_tokenizer_model.hpp:6:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/narrow.h:10:10: fatal error: 'gsl/narrow' file not found
+   10 | #include "gsl/narrow"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_sum.cc:4:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_sum.hpp:6:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/ocos.h:13:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_extraction.cc:4:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/segment_extraction.hpp:6:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/ocos.h:13:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/math/math.cc:1:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/ocos.h:13:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/lib/ops_registry.cc:10:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/ocos.h:13:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_tokenizer.cc:8:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/tokenizer_impl.h:8:10: fatal error: 'bpe_kernels.h' file not found
+    8 | #include "bpe_kernels.h"
+      |          ^~~~~~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_feature_extraction.cc:4:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/speech_extractor.h:7:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.hpp:12:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/tokenizer_impl.cc:4:10: fatal error: 'bpe_kernels.h' file not found
+    4 | #include "bpe_kernels.h"
+      |          ^~~~~~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/c_api_utils.cc:9:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/tokenizer_impl.h:8:10: fatal error: 'bpe_kernels.h' file not found
+    8 | #include "bpe_kernels.h"
+      |          ^~~~~~~~~~~~~~~
+1 error generated.
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/speech_extractor.cc:6:10: fatal error: 'audio/audio_decoder.h' file not found
+    6 | #include "audio/audio_decoder.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/chat_template.cc:4:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/shared/api/tokenizer_impl.h:8:10: fatal error: 'bpe_kernels.h' file not found
+    8 | #include "bpe_kernels.h"
+      |          ^~~~~~~~~~~~~~~
+1 error generated.
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/dlib-src/dlib/test/fft.cpp:9:10: fatal error: 'dlib/matrix.h' file not found
+    9 | #include <dlib/matrix.h>
+      |          ^~~~~~~~~~~~~~~
+1 error generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/audio/audio.cc:4:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/ocos.h:13:
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/op_def_struct.h:22:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:270:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  270 |   size_t indice_;
+      |          ^
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/include/custom_op/custom_op_lite.h:405:10: warning: private field 'indice_' is not used [-Wunused-private-field]
+  405 |   size_t indice_;
+      |          ^
+2 warnings generated.
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/operators/audio/audio_decoder.cc:6:10: fatal error: 'gsl/util' file not found
+    6 | #include <gsl/util>
+      |          ^~~~~~~~~~
+1 error generated.
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/base64.cc:39:11: warning: explicitly assigning value of variable of type 'std::string' (aka 'basic_string<char>') to itself [-Wself-assign-overloaded]
+   39 |   encoded = encoded;
+      |   ~~~~~~~ ^ ~~~~~~~
+1 warning generated.
+In file included from ../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/ocos.cc:5:
+../onnxruntime-genai/build/macOS/RelWithDebInfo/_deps/onnxruntime_extensions-src/base/narrow.h:10:10: fatal error: 'gsl/narrow' file not found
+   10 | #include "gsl/narrow"
+      |          ^~~~~~~~~~~~
+1 error generated.
+make: *** [test_phi3_cpp_static] Error 1
+(coreml_env) %n@%m %1~ %# 

@@ -1,0 +1,5 @@
+	@cat > iOS_Framework/GenAI.framework/Modules/module.modulemap << 'EOF'
+framework module GenAI {
+    header "GenAI.h"
+    export *
+}

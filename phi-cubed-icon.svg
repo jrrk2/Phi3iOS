@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for modern iOS look -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0051D5;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Subtle inner gradient for Phi symbol -->
+    <linearGradient id="phiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#E8F4FF;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="4" dy="8" stdDeviation="8" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Background with iOS-style rounded rectangle -->
+  <rect x="0" y="0" width="1024" height="1024" rx="180" ry="180" fill="url(#bgGradient)"/>
+  
+  <!-- Isometric cube outline suggestion (subtle) -->
+  <g opacity="0.15" stroke="#FFFFFF" stroke-width="3" fill="none">
+    <!-- Back face -->
+    <path d="M300 350 L550 200 L800 350 L550 500 Z"/>
+    <!-- Front face -->
+    <path d="M200 450 L450 300 L700 450 L450 600 Z"/>
+    <!-- Connecting lines -->
+    <path d="M300 350 L200 450"/>
+    <path d="M550 200 L450 300"/>
+    <path d="M800 350 L700 450"/>
+    <path d="M550 500 L450 600"/>
+  </g>
+  
+  <!-- Main Phi (Φ) symbol - large and prominent -->
+  <g transform="translate(512, 512)" filter="url(#shadow)">
+    <!-- Proper Phi symbol -->
+    <g fill="url(#phiGradient)" stroke="none">
+      <!-- Main circular body of Phi (more round) -->
+      <circle cx="0" cy="0" r="120" fill="none" stroke="url(#phiGradient)" stroke-width="24"/>
+      
+      <!-- Vertical line through center - slightly slanted and longer -->
+      <rect x="-12" y="-200" width="24" height="400" transform="rotate(8)"/>
+    </g>
+  </g>
+  
+  <!-- Large "³" superscript - closer and bigger -->
+  <g transform="translate(620, 380)" fill="#FFFFFF" opacity="0.95">
+    <text font-family="SF Pro Display, -apple-system, Arial, sans-serif" 
+          font-size="180" 
+          font-weight="600" 
+          text-anchor="start">³</text>
+  </g>
+  
+  <!-- Subtle geometric elements for AI/tech feel -->
+  <g opacity="0.1" fill="#FFFFFF">
+    <!-- Corner accent dots -->
+    <circle cx="150" cy="150" r="8"/>
+    <circle cx="874" cy="150" r="8"/>
+    <circle cx="150" cy="874" r="8"/>
+    <circle cx="874" cy="874" r="8"/>
+    
+    <!-- Circuit-like lines -->
+    <rect x="100" y="160" width="60" height="2"/>
+    <rect x="864" y="160" width="60" height="2"/>
+    <rect x="100" y="862" width="60" height="2"/>
+    <rect x="864" y="862" width="60" height="2"/>
+  </g>
+  
+  <!-- Optional: Very subtle sparkle/AI effect -->
+  <g opacity="0.4" fill="#FFFFFF">
+    <polygon points="200,250 205,260 215,260 207,268 210,278 200,272 190,278 193,268 185,260 195,260"/>
+    <polygon points="824,750 827,756 835,756 829,761 831,769 824,765 817,769 819,761 813,756 821,756"/>
+  </g>
+</svg>

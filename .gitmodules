@@ -1,0 +1,3 @@
+[submodule "onnxruntime-genai"]
+	path = onnxruntime-genai
+	url = git@github.com:jrrk2/onnxruntime-genai.git
