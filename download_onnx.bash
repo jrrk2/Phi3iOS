@@ -1,5 +1,6 @@
 # Clean up failed attempts
-rm -rf phi3_mini_iphone16e*
+python3 -mvenv venv
+source venv/bin/activate
 
 # Download the official Microsoft mobile-optimized ONNX model
 pip install huggingface_hub
