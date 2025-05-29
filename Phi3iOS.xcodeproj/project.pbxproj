@@ -72,6 +72,7 @@
 		ABA680312DE6E7A000237B6B /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		ABA680342DE6E8B500237B6B /* onnxruntime in Frameworks */ = {isa = PBXBuildFile; productRef = ABA680332DE6E8B500237B6B /* onnxruntime */; };
 		ABA680362DE6E8B500237B6B /* onnxruntime_extensions in Frameworks */ = {isa = PBXBuildFile; productRef = ABA680352DE6E8B500237B6B /* onnxruntime_extensions */; };
+		ABA680382DE7446200237B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA680372DE7446200237B6B /* LaunchScreen.storyboard */; };
 		AC399F951710F13994BA3B98 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E1351F6E419B5DDEA5F11B /* CoreML.framework */; };
 		B1C0079935504516F922C766 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A59095C1A4F21029078800E /* MetalKit.framework */; };
 		B372AD6A7D0D4EEA5B48FDFC /* kv_cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63DBE6366AE1C5248D7E6BB6 /* kv_cache.cpp */; };
@@ -156,6 +157,7 @@
 		AB76A20D2DE61C500042F019 /* MemoryProfiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MemoryProfiler.h; path = Phi3iOS/MemoryProfiler.h; sourceTree = "<group>"; };
 		AB76A20E2DE61C500042F019 /* MemoryProfiler.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MemoryProfiler.mm; path = Phi3iOS/MemoryProfiler.mm; sourceTree = "<group>"; };
 		ABA6802C2DE6E59D00237B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA680372DE7446200237B6B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC457B3580F020A1E26E28E7 /* position_inputs.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = position_inputs.cpp; path = "onnxruntime-genai/src/models/position_inputs.cpp"; sourceTree = "<group>"; };
 		BCFDDB212B7FF863EFEADFA5 /* main.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = Phi3iOS/main.mm; sourceTree = "<group>"; };
 		C289AD3B61597F12B6690E98 /* adapters.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = adapters.cpp; path = "onnxruntime-genai/src/models/adapters.cpp"; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 		B280F1232C206B5A34BB5EE2 = {
 			isa = PBXGroup;
 			children = (
+				ABA680372DE7446200237B6B /* LaunchScreen.storyboard */,
 				ABA6802C2DE6E59D00237B6B /* Assets.xcassets */,
 				AB76A2072DE60A8F0042F019 /* MemoryManager.h */,
 				AB76A1F62DE5CD910042F019 /* cpu-int4-rtn-block-32-acc-level-4 */,
@@ -360,6 +363,7 @@
 			buildConfigurationList = 6CED271BE69081F38FDC4A64 /* Build configuration list for PBXNativeTarget "Phi3iOS" */;
 			buildPhases = (
 				C2AFDB4C3785D32BCDCDE975 /* Sources */,
+				ABA680392DE74AAD00237B6B /* ShellScript */,
 				3927A28E8CC04C22811379E9 /* Frameworks */,
 				B3A13741EFD707EB003DE359 /* Resources */,
 			);
@@ -408,12 +412,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA680382DE7446200237B6B /* LaunchScreen.storyboard in Resources */,
 				ABA6802D2DE6E59D00237B6B /* Assets.xcassets in Resources */,
 				AB76A1F72DE5CD910042F019 /* cpu-int4-rtn-block-32-acc-level-4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABA680392DE74AAD00237B6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./fix_framework_script.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C2AFDB4C3785D32BCDCDE975 /* Sources */ = {
@@ -519,12 +544,13 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Phi3iOS/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-stdlib=libc++";
 				OTHER_CPLUSPLUSFLAGS = (
 					"-Wall",
@@ -600,7 +626,7 @@
 				DEVELOPMENT_TEAM = Y53675G8V9;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -655,6 +681,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-stdlib=libc++";
 				OTHER_CPLUSPLUSFLAGS = (
 					"-Wall",
@@ -727,11 +754,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = Y53675G8V9;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;

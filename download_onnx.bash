@@ -36,3 +36,6 @@ if os.path.exists(mobile_dir):
 print("\n🎉 Ready for iPhone 16e integration!")
 EOF
 
+mv -f ./cpu-int4-rtn-block-32-acc-level-4{,.old}
+mv phi3_official/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4 .
+rm -rf phi3_official

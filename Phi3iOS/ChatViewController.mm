@@ -118,7 +118,11 @@ extern "C" void cancelPhi3Generation() {
                                             target:self
                                             action:@selector(continueGeneration)];
     self.navigationItem.leftBarButtonItem.enabled = NO;
-    
+
+    NSMutableArray *rightButtons = [self.navigationItem.rightBarButtonItems mutableCopy];
+
+    self.navigationItem.rightBarButtonItems = rightButtons;
+
     [self setupUI];
     [self setupKeyboardNotifications];
     [self setupMemoryMonitoring];
@@ -128,46 +132,108 @@ extern "C" void cancelPhi3Generation() {
     [self appendToChatLog:@"PHI3 Smart Chat Ready! Tap 'Clear' to start a fresh conversation anytime." fromUser:NO];
 }
 
-// NEW - Setup orientation handling
-- (void)setupOrientationHandling {
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(orientationDidChange:)
-                                                 name:UIDeviceOrientationDidChangeNotification
-                                               object:nil];
-}
-
-// NEW - Handle orientation transitions
+// KEEP the viewWillTransitionToSize method (it's working)
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    NSLog(@"🔄 viewWillTransitionToSize: %@", NSStringFromCGSize(size));
+    
     [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
     
     [coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
         [self updateLayoutForSize:size];
     } completion:^(id<UIViewControllerTransitionCoordinatorContext> context) {
-        // Ensure chat stays scrolled to bottom after rotation
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [self scrollToBottom];
         });
     }];
 }
 
-// NEW - Handle orientation changes
+// FIXED setupOrientationHandling - enable device notifications
+- (void)setupOrientationHandling {
+    NSLog(@"🔧 Setting up orientation handling...");
+    
+    // CRITICAL: Enable device orientation notifications
+    if (![UIDevice currentDevice].isGeneratingDeviceOrientationNotifications) {
+        NSLog(@"⚠️ Device orientation notifications disabled - enabling...");
+        [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+    }
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(orientationDidChange:)
+                                                 name:UIDeviceOrientationDidChangeNotification
+                                               object:nil];
+    
+    NSLog(@"✅ Orientation observer added");
+}
+
+// ENHANCED orientationDidChange with better logic
 - (void)orientationDidChange:(NSNotification *)notification {
+    UIDeviceOrientation deviceOrientation = [[UIDevice currentDevice] orientation];
+    
+    NSLog(@"🔄 Device orientation changed to: %ld", (long)deviceOrientation);
+    
+    // Filter out invalid orientations
+    if (deviceOrientation == UIDeviceOrientationUnknown || 
+        deviceOrientation == UIDeviceOrientationFaceUp || 
+        deviceOrientation == UIDeviceOrientationFaceDown) {
+        NSLog(@"⚠️ Ignoring invalid orientation: %ld", (long)deviceOrientation);
+        return;
+    }
+    
+    // Calculate expected view size based on device orientation
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    CGSize expectedSize;
+    
+    if (deviceOrientation == UIDeviceOrientationLandscapeLeft || 
+        deviceOrientation == UIDeviceOrientationLandscapeRight) {
+        // Landscape
+        expectedSize = CGSizeMake(MAX(screenBounds.size.width, screenBounds.size.height),
+                                 MIN(screenBounds.size.width, screenBounds.size.height));
+    } else {
+        // Portrait
+        expectedSize = CGSizeMake(MIN(screenBounds.size.width, screenBounds.size.height),
+                                 MAX(screenBounds.size.width, screenBounds.size.height));
+    }
+    
+    NSLog(@"📐 Expected view size for orientation: %@", NSStringFromCGSize(expectedSize));
+    
     dispatch_async(dispatch_get_main_queue(), ^{
-        [self updateLayoutForSize:self.view.bounds.size];
+        [self updateLayoutForSize:expectedSize];
     });
 }
 
-// NEW - Update layout based on orientation
+// ENHANCED updateLayoutForSize with debug info
 - (void)updateLayoutForSize:(CGSize)size {
     BOOL isLandscape = size.width > size.height;
+    CGSize currentSize = self.view.bounds.size;
     
-    // Adjust margins and spacing based on orientation
+    NSLog(@"📐 updateLayoutForSize:");
+    NSLog(@"   Target size: %@", NSStringFromCGSize(size));
+    NSLog(@"   Current size: %@", NSStringFromCGSize(currentSize));
+    NSLog(@"   Is landscape: %@", isLandscape ? @"YES" : @"NO");
+    
+    // Check if constraints exist
+    if (!self.chatTopConstraint || !self.chatLeadingConstraint || 
+        !self.chatTrailingConstraint || !self.inputHeightConstraint) {
+        NSLog(@"❌ Constraint references missing - skipping layout update");
+        return;
+    }
+    
+    // Only update if orientation actually changed
+    BOOL currentIsLandscape = currentSize.width > currentSize.height;
+    if (isLandscape == currentIsLandscape) {
+        NSLog(@"📐 No orientation change detected - skipping");
+        return;
+    }
+    
+    NSLog(@"📐 Applying %@ layout", isLandscape ? @"landscape" : @"portrait");
+    
+    // Adjust constraints based on orientation
     if (isLandscape) {
         // Landscape: More horizontal space, less vertical space
-        self.chatTopConstraint.constant = 4;  // Reduced top margin
-        self.chatLeadingConstraint.constant = 12;  // More side margin
+        self.chatTopConstraint.constant = 4;
+        self.chatLeadingConstraint.constant = 12;
         self.chatTrailingConstraint.constant = -12;
-        self.inputHeightConstraint.constant = 50;  // Slightly smaller input
+        self.inputHeightConstraint.constant = 50;
     } else {
         // Portrait: Standard spacing
         self.chatTopConstraint.constant = 8;
@@ -176,12 +242,15 @@ extern "C" void cancelPhi3Generation() {
         self.inputHeightConstraint.constant = 60;
     }
     
-    // Update font sizes for better readability
+    // Update fonts
     [self updateFontsForOrientation:isLandscape];
     
     // Animate the changes
     [UIView animateWithDuration:0.3 animations:^{
         [self.view layoutIfNeeded];
+    } completion:^(BOOL finished) {
+        NSLog(@"✅ Layout animation completed");
+        [self scrollToBottom];
     }];
 }
 
@@ -352,13 +421,13 @@ extern "C" void cancelPhi3Generation() {
     [self setupConstraints];
 }
 
-// UPDATED - Store constraint references for orientation handling
+// ENSURE proper constraint setup
 - (void)setupConstraints {
     UILayoutGuide *safeArea = self.view.safeAreaLayoutGuide;
     
-    // Input container at bottom - store the bottom constraint for keyboard handling
+    // Input container constraints
     self.inputBottomConstraint = [self.inputContainerView.bottomAnchor constraintEqualToAnchor:safeArea.bottomAnchor];
-    self.inputHeightConstraint = [self.inputContainerView.heightAnchor constraintEqualToConstant:60]; // UPDATED - Store reference
+    self.inputHeightConstraint = [self.inputContainerView.heightAnchor constraintEqualToConstant:60];
     
     [NSLayoutConstraint activateConstraints:@[
         [self.inputContainerView.leadingAnchor constraintEqualToAnchor:safeArea.leadingAnchor],
@@ -367,7 +436,7 @@ extern "C" void cancelPhi3Generation() {
         self.inputHeightConstraint
     ]];
     
-    // Send button first (fixed width)
+    // Send button constraints
     [NSLayoutConstraint activateConstraints:@[
         [self.sendButton.trailingAnchor constraintEqualToAnchor:self.inputContainerView.trailingAnchor constant:-12],
         [self.sendButton.centerYAnchor constraintEqualToAnchor:self.inputContainerView.centerYAnchor],
@@ -375,7 +444,7 @@ extern "C" void cancelPhi3Generation() {
         [self.sendButton.heightAnchor constraintEqualToConstant:40]
     ]];
     
-    // Text field fills remaining space
+    // Text field constraints
     [NSLayoutConstraint activateConstraints:@[
         [self.inputTextField.leadingAnchor constraintEqualToAnchor:self.inputContainerView.leadingAnchor constant:12],
         [self.inputTextField.trailingAnchor constraintEqualToAnchor:self.sendButton.leadingAnchor constant:-8],
@@ -383,7 +452,7 @@ extern "C" void cancelPhi3Generation() {
         [self.inputTextField.heightAnchor constraintEqualToConstant:40]
     ]];
     
-    // UPDATED - Chat text view constraints - store references for orientation changes
+    // CRITICAL: Store constraint references for orientation changes
     self.chatTopConstraint = [self.chatTextView.topAnchor constraintEqualToAnchor:safeArea.topAnchor constant:8];
     self.chatLeadingConstraint = [self.chatTextView.leadingAnchor constraintEqualToAnchor:safeArea.leadingAnchor constant:8];
     self.chatTrailingConstraint = [self.chatTextView.trailingAnchor constraintEqualToAnchor:safeArea.trailingAnchor constant:-8];
@@ -395,7 +464,9 @@ extern "C" void cancelPhi3Generation() {
         [self.chatTextView.bottomAnchor constraintEqualToAnchor:self.inputContainerView.topAnchor constant:-8]
     ]];
     
-    // NEW - Set initial layout based on current orientation
+    NSLog(@"🔧 Constraints setup with references stored");
+    
+    // Set initial layout
     [self updateLayoutForSize:self.view.bounds.size];
 }
 
@@ -1004,8 +1075,15 @@ extern "C" void cancelPhi3Generation() {
     return YES;
 }
 
-// UPDATED - Enhanced dealloc with orientation observer cleanup
+// ENHANCED dealloc to properly clean up
 - (void)dealloc {
+    NSLog(@"🔧 ChatViewController dealloc - cleaning up");
+    
+    // Stop device orientation notifications
+    if ([UIDevice currentDevice].isGeneratingDeviceOrientationNotifications) {
+        [[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
+    }
+    
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [self.autoScrollTimer invalidate];
     [[MemoryProfiler shared] stopProfiling];
